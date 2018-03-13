@@ -61,7 +61,7 @@ function _print(level, name, ...args) {
   switch (level) {
     case LEVEL_LOG:
       head.splice(1, 0, 'LOG  ');
-      console.error(...head);
+      console.log(...head);
       break;
     case LEVEL_ERROR:
       head.splice(1, 0, 'ERROR');
@@ -81,7 +81,7 @@ function _print(level, name, ...args) {
       break;
     case LEVEL_TRACE:
       head.splice(1, 0, 'TRACE');
-      console.trace(...head);
+      console.log(...head);
       break;
   }
 }
