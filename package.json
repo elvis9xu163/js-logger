@@ -1,0 +1,23 @@
+{
+  "name": "js-logger",
+  "version": "1.0.0",
+  "description": "",
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elvis9xu163/js-logger/issues"
+  },
+  "homepage": "https://github.com/elvis9xu163/js-logger#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elvis9xu163/js-logger.git"
+  },
+  "scripts": {
+    "prebuild": "rm -rf ./dist",
+    "build": "babel ./src -d ./dist"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
+  }
+}
